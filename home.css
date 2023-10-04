@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar-section {
+    height: 22vh;
+
+  }
+
+  .search-form {
+    display: block;
+    width: 100%;
+  }
+
+  .my-search-bar {
+    width: 100%;
+    border-radius: 10rem;
+    padding: 0.7rem;
+  }
+
+  .department-name {
+    justify-content: center;
+    align-items: center;
+    padding: .3rem;
+  }
+
+  .departments {
+    margin: 0 auto 0 auto;
+  }
+
+  .department-heading {
+    color: blue;
+    font-weight: 600;
+  }
+
+  .content-page {
+    background: linear-gradient(to bottom, rgb(16, 16, 99) 10%, rgb(99, 15, 99) 70%);
+    height: 79vh;
+  }
+  .card {
+    width: 10rem;
+  }
+
+  .posts-section {
+    display: inline-flex;
+  }
+
+  .my-cards-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+  }
+
+  .card-img-overlay {
+    padding-bottom: 0.1rem;
+  }
+
+  .card-topic {
+    position: absolute;
+    bottom: 0.7rem;
+  }
+
+  .card-rating {
+    position: absolute;
+    bottom: 0;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 4rem;
+  }
+
+  /* .footer-icons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  } */
+  .icon {
+    font-size: 2rem;
+  }
